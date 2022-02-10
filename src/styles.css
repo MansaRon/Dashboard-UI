@@ -1,0 +1,253 @@
+/* You can add global styles to this file, and also import other style files */
+/* SIDE PANEL */
+.app-sidepanel.sidepanel-visible {
+  left: 0;
+}
+
+.app-sidepanel {
+  position: fixed;
+  min-height: 100vh;
+  height: 100%;
+  left: 0;
+  top: 0;
+  font-size: .875rem;
+  border-right: 1px solid #e7e9ed;
+}
+
+.app-sidepanel {
+  font-size: .875rem;
+}
+
+.app-sidepanel .sidepanel-inner {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, .05) 0px 8px 15px;
+  width: 250px;
+  height: 100%;
+}
+
+.app-sidepanel .app-nav-main {
+  overflow-y: auto;
+  scrollbar-color: rgba(0, 0, 0, .1) #e7e9ed;
+  scrollbar-width: thin;
+}
+
+.app-sidepanel .app-nav-main {
+  scrollbar-color: rgba(0, 0, 0, .1) #e7e9ed;
+}
+
+.app-nav .nav-link {
+  font-size: 1.1em;
+  display: block;
+  padding: .875rem 1rem;
+  color: #222;
+  position: relative;
+  display: block;
+  padding-left: 3rem;
+  border-left: 3px solid transparent;
+}
+
+.app-nav .nav-icon {
+  position: absolute;
+  left: 1rem;
+  top: .7rem;
+}
+
+.app-nav .nav-link {
+  font-size: 1.1em;
+  color: #222;
+}
+
+.app-nav .nav-icon .bi {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.app-nav .nav-item {
+  display: block;
+  color: #5d6778;
+  background: #fff;
+}
+
+.app-nav .submenu-toggle {
+  transition: all .4s ease-in-out;
+}
+
+.app-sidepanel {
+  font-size: .875rem;
+}
+
+.app-branding {
+  height: 60px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app-sidepanel {
+  font-size: .875rem;
+}
+
+a {
+  color: #6576ff;
+  text-decoration: none;
+}
+
+.app-nav {
+  color: #5d6778;
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+
+.app-nav .app-menu {
+  margin-bottom: 0;
+}
+
+.app-sidepanel-footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #e7e9ed;
+  background: #f5f6fe;
+}
+
+.app-sidepanel-footer .app-nav-footer {
+  margin-bottom: 0;
+}
+
+.app-nav {
+  color: #5d6778;
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+/* SIDE PANEL */
+
+/* HEADER */
+.app-search-form {
+  position: relative;
+  max-width: 600px;
+}
+
+.app-search-form .search-input {
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+  padding-right: 3rem;
+  padding-left: 1rem;
+}
+
+.app-search-form .search-btn {
+  color: #828d9f;
+}
+
+.app-search-form .search-btn {
+  color: #828d9f;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 0;
+  padding: 0.5rem 1rem;
+}
+
+.form-control {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  height: 2.5rem;
+  border-color: #e7e9ed;
+  color: #5d6778;
+}
+
+.app-utility-item {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+.app-utility-item:last-child {
+  margin-right: 0;
+}
+
+.app-user-dropdown {
+  display: inline-block;
+}
+
+.app-utility-item .dropdown-toggle {
+  position: relative;
+}
+
+.app-utility-item > a {
+  color: #fff;
+}
+
+.app-utility-item .icon {
+  font-size: 1.25rem;
+  width: 24px;
+  height: 24px;
+}
+
+.app-utility-item .icon-badge.icon-badge {
+  background: #ec776c;
+  border: 2px solid #fff;
+}
+
+.app-utility-item .icon-badge {
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  right: -0.45rem;
+  top: -0.3rem;
+  width: 20px;
+  height: 20px;
+  font-size: 0.6rem;
+  font-weight: bold;
+  padding-top: 1px;
+  color: #fff;
+  text-align: center;
+}
+
+.app-utility-item .dropdown-menu {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.dropdown-menu {
+  border-color: #e7e9ed;
+}
+
+.app-utility-item > a {
+  color: #fff;
+}
+
+.app-utility-item .dropdown-toggle {
+  position: relative;
+}
+
+.app-user-dropdown img {
+  width: 36px;
+  height: 36px;
+}
+
+.app-header-inner {
+  margin-left: 250px;
+}
+
+.app-header {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e7e9ed;
+  height: 56px;
+  background: #29347a;
+}
+
+/* HEADER */
+
+/* MEDIA QUERY */
+@media only screen and (min-device-width: 576px) and (max-device-width: 1350px) {
+  .app-notifications-dropdown .dropdown-menu {
+    width: 400px;
+  }
+}
+
+/* MEDIA QUERY */
