@@ -1,0 +1,196 @@
+<div class="app-content pt-3 p-md-3 p-lg-4">
+  <div class="container-xl">
+    <div class="row g-3 mb-4 align-items-center justify-content-between">
+      <div class="col-auto">
+        <h1 class="app-page-title mb-0">Customers</h1>
+      </div>
+      <div class="col-auto">
+        <div class="page-utilities">
+          <div class="row g-2 justify-content-start justify-content-md-end align-items-center">
+            <div class="col-auto">
+              <a class="btn app-btn-primary">Add New Customer</a>
+              <!-- href="add-customer.html" -->
+            </div>
+          </div>
+          <!--//row-->
+        </div>
+        <!--//table-utilities-->
+      </div>
+      <!--//col-auto-->
+    </div>
+    <!--//row-->
+    <div class="card mb-4">
+      <div class="card-body">
+        <div class="card-inner position-relative card-tools-toggle">
+          <div class="d-flex">
+            <div class="p-1">
+              <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div class="input-group">
+                  <input class="form-control" type="text" placeholder="Search within table" aria-label="Search" aria-describedby="basic-addon2" />
+                </div>
+              </form>
+            </div>
+            <div class="p-1 ml-auto">
+              <button type="button" class="btn btn-light">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-funnel" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z" />
+                </svg>
+              </button>
+              <button type="button" class="btn btn-light">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-filter-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                </svg>
+              </button>
+              <button type="button" class="btn btn-light">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-layout-three-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M0 2.5A1.5 1.5 0 0 1 1.5 1h13A1.5 1.5 0 0 1 16 2.5v11a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-11zM1.5 2a.5.5 0 0 0-.5.5v11a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-11a.5.5 0 0 0-.5-.5h-13z" />
+                  <path fill-rule="evenodd" d="M5 15V1h1v14H5zm5 0V1h1v14h-1z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-inner pt-4">
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <!--Table head-->
+              <thead class="mdb-color">
+                <tr class="text-black">
+                  <th>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </th>
+                  <th>Payment Id
+                    <svg style="margin-left:10px;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-sort-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M3 2a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-1 0v-10A.5.5 0 0 1 3 2z" />
+                      <path fill-rule="evenodd" d="M5.354 10.146a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L3 11.793l1.646-1.647a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 9a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                  </th>
+                  <th>Customer Id</th>
+                  <th>Customer Name</th>
+                  <th>Amount</th>
+                  <th>Tax</th>
+                  <th>Mode</th>
+                  <th>Date</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <!--Table head-->
+              <!--Table body-->
+              <tbody>
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </td>
+                  <td><a href="#">LA-565456</a></td>
+                  <td>6645</td>
+                  <td>Manu Kumar</td>
+                  <td>$56565</td>
+                  <td>7.16%</td>
+                  <td>Cash</td>
+                  <td>11-12-2020</td>
+                  <td>This is payment notes</td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </td>
+                  <td><a href="#">LA-565456</a></td>
+                  <td>6645</td>
+                  <td>Raj Kumar</td>
+                  <td>$56565</td>
+                  <td>7.16%</td>
+                  <td>Online</td>
+                  <td>10-12-2020</td>
+                  <td>This is payment notes</td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </td>
+                  <td><a href="#">LA-565456</a></td>
+                  <td>6645</td>
+                  <td>Krishna K</td>
+                  <td>$56565</td>
+                  <td>7.16%</td>
+                  <td>Debit Card</td>
+                  <td>11-12-2020</td>
+                  <td>This is payment notes</td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </td>
+                  <td><a href="#">LA-565456</a></td>
+                  <td>6645</td>
+                  <td>Sarvanan Saraf</td>
+                  <td>$56565</td>
+                  <td>7.16%</td>
+                  <td>Credit Card</td>
+                  <td>15-12-2020</td>
+                  <td>This is payment notes</td>
+                </tr>
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </td>
+                  <td><a href="#">LA-565456</a></td>
+                  <td>6645</td>
+                  <td>Steve Bon</td>
+                  <td>$56565</td>
+                  <td>7.16%</td>
+                  <td>Online</td>
+                  <td>12-12-2020</td>
+                  <td>This is payment notes</td>
+                </tr>
+              </tbody>
+              <!--Table body-->
+            </table>
+          </div>
+
+          <div class="card-inner">
+            <div class="d-flex align-content-center align-self">
+              <div class="pt-4 mb-3 align-middle"> Showing 1 to 10 of 12 rows
+                <p>Select page
+                  <select name="state" id="maxRows">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="70">70</option>
+                    <option value="100">100</option>
+                  </select>
+                </p>
+              </div>
+              <div class="p-2 ml-auto">
+                <div class="btn-toolbar pt-4 mb-3" role="toolbar"
+                  aria-label="Toolbar with button groups">
+                  <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary active">1</button>
+                    <button type="button" class="btn btn-outline-secondary">2</button>
+                    <button type="button" class="btn btn-outline-secondary">3</button>
+                    <button type="button" class="btn btn-outline-secondary">4</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--//container-fluid-->
+</div>

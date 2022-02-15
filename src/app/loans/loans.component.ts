@@ -10,6 +10,8 @@ export class LoansComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('hello world');
+
   }
 
 }
